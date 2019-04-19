@@ -24,6 +24,7 @@ h1 {
 	text-align: center;
 }
 
+
 /* The following font information and color codes are provided for you.  They do not match the prototype exactly, but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.  If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
 
 	FONTS:
@@ -40,3 +41,107 @@ h1 {
 */
 
 /* Your CSS code goes here */
+a {
+	color: #20A1D4;
+	font-style: italic;
+}
+
+.container2 {
+	margin: auto;
+	width: 280px;
+}
+.triangle {
+	width: 0;
+	height: 0;
+	border: 5px solid transparent;
+	border-top: 5px solid #424242;
+	position: relative;
+	left: 230px;
+}
+
+.goal {
+	width: 100%;
+	text-align: center;
+	background: #424242;
+	color: #eaeaea;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+.info {
+	padding: 10px 20px 10px 20px;
+	width: 100%;
+	border: 1px solid #eaeaea;
+}
+
+.orange {
+	color: #EF5F3C;
+}
+
+.flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.input-container {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	margin: 10px;
+	padding: 10px;
+	height: 50px;
+	font-size: 1.5em;
+	margin-left: 0;
+	border: 1px solid #eaeaea;
+	border-radius: 3px;
+	color: #777;
+}
+
+.input-container input {
+	color: #000;
+	font-size: 1.1em;
+	font-family: inherit;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	display: inline;
+	border: none;
+	width: 100%;
+}
+
+.flex button {
+	margin-right: 0;
+	background: #1CBC2C;
+	border: 1px solid #eaeaea;
+	border-radius: 3px;
+	color: #eaeaea;
+	font-size: 1.1em;
+}
+
+.flex.graybuttons button {
+	background: #eaeaea;
+	color: #424242;
+	font-size: 0.8em;
+	height: 35px;
+	border: 1px solid #777;
+}
+
+.progress {
+	width: 100%;
+	height: 10px;
+	background: #eaeaea;
+	border: 1px solid #eaeaea;
+}
+
+.bar {
+	width: 75%;
+	background: #1CBC2C;
+	height: 100%;
+}
+
+
+button {
+	width: 50%;
+	margin: 10px;
+	height: 50px;
+}
